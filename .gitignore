@@ -1,0 +1,14 @@
+# Mac OS X
+**/*/.DS_Store
+*/.DS_Store
+.DS_Store
+.AppleDouble
+.LSOverride
+**/*/Icon
+*/Icon
+Icon
+._*
+.Spotlight-V100
+.Trashes
+depgulp/node_modules
+public_html/includes/php/conn.php

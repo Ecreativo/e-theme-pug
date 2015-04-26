@@ -1,0 +1,46 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+# TEAM
+
+    CEO, Web designer & UI developer: Oscar Camilo Ruiz
+    Contact: hola [at] esquemacreativo.com
+	Twitter: @CamiloRojjas
+	Phone: 320 433 1681
+	G+:https://plus.google.com/+CamiloRuiz/
+	Location: Bogotá, Colombia.
+	From: Bogotá, Colombia.
+	CTO: Camilo Ruiz
+
+# THANKS
+
+    Name: Juan Carlos Rodriguez Pinto.
+
+# SITE 
+	
+	Site Name: Wiwux Media
+	Site URL: http://www.esquemacreativo.com/
+	Twitter: @CamiloRojjas
+	G+: https://plus.google.com/+Esquemacreativo
+	Language: Spanish
+	CreationDate: 14/11/2014
+	Last update: 2015/03/16
+	Version: 1.0.0
+
+# TECHNOLOGY COLOPHON
+	Doctype:html-css-js-jQuery-php
+	Standards & Components: HTML5, CSS3, jQuery, Modernizr, XML Technology, Bootstrap.
+	IDE & Software: Coda 2, Mamp, Photoshop.
+
+
+
+	
+	
+	
+	
+	
+    	
+		
+
+
+
+
