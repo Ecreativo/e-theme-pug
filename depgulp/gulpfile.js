@@ -128,6 +128,6 @@ gulp.task('default', ['connect-sync', 'scripts', 'styles', 'images'], function()
 	gulp.watch('../public_html/*', ['html']);
 	gulp.watch('../content/css/*.css', ['styles']);
     gulp.watch('../content/js/**/*.js', ['scripts']);
-    gulp.watch('../content/img/**/*.*', ['images']);
+    gulp.watch('../content/images/**/*.*', ['images']);
     gulp.watch('../public_html/**/*.php', ['php']);
 });
