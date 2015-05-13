@@ -11,6 +11,5 @@ Icon
 .Spotlight-V100
 .Trashes
 includes/php/easily.php
-index.php
+/index.php
 static/.htaccess
-!includes/email/index.php
