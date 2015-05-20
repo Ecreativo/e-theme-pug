@@ -33,7 +33,7 @@ var rename 					= require('gulp-rename');
 
 /*
 * Dependencias 
-* npm install --save-dev gulp gulp-connect-php browser-sync gulp-concat gulp-replace gulp-imagemin gulp-minify-css gulp-concat-css gulp-notify gulp-rename gulp-autoprefixer gulp-uncss gulp-uglify
+* npm install --save-dev gulp gulp-connect-php browser-sync gulp-concat gulp-replace gulp-minify-css gulp-concat-css gulp-notify gulp-rename gulp-autoprefixer gulp-uncss gulp-uglify gulp-imagemin
 */
 var gulp = require('gulp'),
   	connect = require('gulp-connect-php'),
