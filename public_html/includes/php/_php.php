@@ -1,5 +1,5 @@
 <?php
-	require_once('easily.php');
+	require_once('_easily.php');
 	
 	$interaccion = array(
 		"1"=>"Cotización, Información de productos",

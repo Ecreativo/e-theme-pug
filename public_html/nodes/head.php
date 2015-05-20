@@ -17,6 +17,7 @@
 <meta name="document-rating" content="General" >
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+<!-- Favicons -->
 <link rel="apple-touch-icon" sizes="57x57" href="http://static.wiwuxboilerplate.com/content/private/images/ico/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="http://static.wiwuxboilerplate.com/content/private/images/ico/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="http://static.wiwuxboilerplate.com/content/private/images/ico/apple-icon-72x72.png">

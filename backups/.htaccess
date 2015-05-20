@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+RewriteRule ^(.*)$ https://6516d4415d785f9c21189e2775fca3477de54de5.googledrive.com/host/0B1_viaOS36Z7U25fZ084RDlPOVU/$1 [L,R=301]
+
+RedirectMatch 301 ^(.*)$ https://6516d4415d785f9c21189e2775fca3477de54de5.googledrive.com/host/0B1_viaOS36Z7U25fZ084RDlPOVU/$1
