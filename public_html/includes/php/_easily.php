@@ -26,5 +26,11 @@
 	define(EMAIL_NOTIFICACIONES,"backup@esquemacreativo.com"); // este deberia ser el mail donde recoge la base de datos
 	define(FROM_NAME,"Webmaster RegalWear"); // este es el nombre del remitente
 	/////////////////////////////////////////////////////////
+	if($_SERVER['SERVER_NAME'] == 'localhost'){
+		$link = "../content/";
+		
+	}else{
+		$link = "http://static.".$_SERVER['SERVER_NAME']."/";
+	}
 ?>
 

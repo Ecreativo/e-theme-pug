@@ -1,8 +1,8 @@
 <?php if($_SERVER['SERVER_NAME'] == 'localhost'){ ?>
 	<!-- Bootstrap -->
-	<link rel="stylesheet" href="../css/vendor/bootstrap.min.css">
-	<link rel="stylesheet" href="../css/vendor/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../content/css/vendor/bootstrap.min.css">
+	<link rel="stylesheet" href="../content/css/vendor/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="../content/css/main.css">
 	<!-- Icon Fonts -->
 	<link href="../content/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
 	

@@ -10,19 +10,14 @@
 	
 <?php if($_SERVER['SERVER_NAME'] == 'localhost'){ ?>
 	<!-- JS Plugins -->
-	<script src="http://static.wiwuxboilerplate.com/js/vendor/bootstrap.min.js"></script>
-	<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js" ></script>
-	<script src="http://static.wiwuxboilerplate.com/js/bootbox.js" ></script>
-	
-	<!-- JS Loader --> 
-	<script type="text/javascript">
-	$(document).ready(function(){
-	$(".loader").fadeOut("slow");
-	})
-	</script>
-	
+	<script src="../content/js/vendor/bootstrap.min.js"></script>
+	<script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js" ></script>
+	<script src="../content/js/bootbox.js" ></script>
 	<!-- JS Custom Codes --> 
-	<script src="http://static.wiwuxboilerplate.com/js/cumains.js"></script>
+	<script src="../content/js/cumains.js"></script>
+	<!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 <?php }else{ ?>
 <!-- JS Loader --> 
 	<script type="text/javascript">
@@ -79,13 +74,13 @@
 	
 		downloadJSAtOnload(window, "load", function() {
 			getscript(
-			"http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js", 
+			"//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js", 
 			function() {
 				getscript(
 				new Array(
-				"http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"),
+				"//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"),
 				function() {
-					getscript("http://static.wiwuxboilerplate.com/javascripts/min/allcumains.min.js")
+					getscript("//static.<?php echo($_SERVER['SERVER_NAME']); ?>/js/min/allcumains.min.js")
 				})
 			});
 		});

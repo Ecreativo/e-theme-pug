@@ -19,7 +19,7 @@
 				<table width="600" style="max-width:100%; font-family:Helvetica" bgcolor="#ffffff" cellspacing="10" cellspacing="10" align="center">
 					<tr>
 						<td>
-							<center><img width="200" alt="wiwuxboilerplate.com" src="http://<?php echo $_SERVER['HTTP_HOST']; ?>/content/img/logo.png" /></center>
+							<center><img width="200" alt="wiwuxboilerplate.com" src="http://static.<?php echo $_SERVER['HTTP_HOST']; ?>img/logo.png" /></center>
 						</td>
 					</tr>
 					<tr bgcolor="#f5f5f5">
