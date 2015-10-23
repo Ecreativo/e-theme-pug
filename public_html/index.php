@@ -1,4 +1,4 @@
-<?php require_once('includes/php/easily.php'); ?>
+<?php require_once('includes/php/_easily.php'); ?>
 <!doctype html>
 <!--[if lt IE 7]>      
 <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es">
@@ -15,7 +15,8 @@
                 <?php require_once('nodes/head.php'); ?>
 				<body>
 					<div class="loader">
-			            <img src="http://static.wiwuxboilerplate.com/img/ajax-loader.gif" />
+			            <img src="http://static.<?php echo($_SERVER['SERVER_NAME']); ?>/img/ajax-loader.gif" />
+			            <div class="contentss" id="loadingContent">Cargando...</div>
 			        </div>
                     <?php require_once('nodes/header.php'); ?>
                     <div class="container">

@@ -18,23 +18,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <!-- Favicons -->
-<link rel="apple-touch-icon" sizes="57x57" href="http://static.wiwuxboilerplate.com/content/private/images/ico/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="http://static.wiwuxboilerplate.com/content/private/images/ico/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="http://static.wiwuxboilerplate.com/content/private/images/ico/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="http://static.wiwuxboilerplate.com/content/private/images/ico/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="http://static.wiwuxboilerplate.com/content/private/images/ico/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="http://static.wiwuxboilerplate.com/content/private/images/ico/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="http://static.wiwuxboilerplate.com/content/private/images/ico/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="http://static.wiwuxboilerplate.com/content/private/images/ico/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="http://static.wiwuxboilerplate.com/content/private/images/ico/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="http://static.wiwuxboilerplate.com/content/private/images/ico/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://static.wiwuxboilerplate.com/content/private/images/ico/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="http://static.wiwuxboilerplate.com/content/private/images/ico/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="http://static.wiwuxboilerplate.com/content/private/images/ico/favicon-16x16.png">
-<link rel="manifest" href="http://static.wiwuxboilerplate.com/content/private/images/ico/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="http://static.wiwuxboilerplate.com/content/private/images/ico/ms-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/ico/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/ico/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/ico/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/ico/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/ico/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/ico/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/ico/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/ico/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/ico/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/ico/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/ico/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/ico/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/ico/manifest.json">
+<link rel="shortcut icon" href="/ico/favicon.ico">
+<meta name="apple-mobile-web-app-title" content="Wiwux">
+<meta name="application-name" content="Wiwux">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="/ico/mstile-144x144.png">
+<meta name="msapplication-config" content="/ico/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
+
 
 <?php if($_SERVER['SERVER_NAME'] == 'localhost'){?>
 	<base href="http://localhost/wiwuxboilerplate.com/public_html/">
