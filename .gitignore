@@ -10,4 +10,7 @@ Icon
 ._*
 .Spotlight-V100
 .Trashes
-depgulp/node_modules
+node_modules
+www.dev/build
+www.dev/app/_bower_components
+.fontcustom-manifest.json
