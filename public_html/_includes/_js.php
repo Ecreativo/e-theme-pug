@@ -10,11 +10,11 @@
 	
 <?php if($_SERVER['SERVER_NAME'] == 'localhost'){ ?>
 	<!-- JS Plugins -->
-	<script src="../content/js/vendor/bootstrap.min.js"></script>
+	<script src="static/js/vendor/bootstrap.min.js"></script>
 	<script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js" ></script>
-	<script src="../content/js/bootbox.js" ></script>
+	<script src="static/js/bootbox.js" ></script>
 	<!-- JS Custom Codes --> 
-	<script src="../content/js/cumains.js"></script>
+	<script src="static/js/cumains.js"></script>
 	<!--[if lt IE 9]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->

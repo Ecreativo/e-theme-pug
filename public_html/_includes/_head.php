@@ -67,7 +67,7 @@
 <meta name="twitter:url" content="pagina web de la empresa" />
 <!-- End Metadata Twitter -->
 
-<?php require_once('includes/_css.php'); ?>
+<?php require_once('_includes/_css.php'); ?>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="<?php echo($link); ?>js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>

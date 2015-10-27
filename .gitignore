@@ -10,7 +10,6 @@ Icon
 ._*
 .Spotlight-V100
 .Trashes
-node_modules
-www.dev/build
-www.dev/app/_bower_components
-.fontcustom-manifest.json
+build/
+public_html/_bower_components
+

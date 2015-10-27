@@ -27,7 +27,7 @@
 	define(FROM_NAME,"Webmaster RegalWear"); // este es el nombre del remitente
 	/////////////////////////////////////////////////////////
 	if($_SERVER['SERVER_NAME'] == 'localhost'){
-		$link = "../content/";
+		$link = "static/";
 		
 	}else{
 		$link = "http://static.".$_SERVER['SERVER_NAME']."/";
