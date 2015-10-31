@@ -1,4 +1,6 @@
 <?php if($_SERVER['SERVER_NAME'] == 'localhost'){ ?>
+	<link rel="stylesheet" href="css/normalize.css">
+
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="static/css/vendor/bootstrap.min.css">
 	<link rel="stylesheet" href="static/css/vendor/bootstrap-theme.min.css">

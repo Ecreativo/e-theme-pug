@@ -1,6 +1,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
 <!-- Begin Basic Needs Metadata -->
 <title><?php if(isset($meta_titulo)){ echo "".$meta_titulo; } ?> | wiwuxboilerplate.com | wiwuxboilerplate.com</title>
 <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
@@ -39,7 +39,7 @@
 <meta name="msapplication-TileImage" content="/ico/mstile-144x144.png">
 <meta name="msapplication-config" content="/ico/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
-
+<!-- Place favicon.ico in the root directory -->
 
 <?php if($_SERVER['SERVER_NAME'] == 'localhost'){?>
 	<base href="http://localhost/wiwuxboilerplate.com/public_html/">
@@ -69,6 +69,6 @@
 
 <?php require_once('_includes/_css.php'); ?>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
 <script src="<?php echo($link); ?>js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>

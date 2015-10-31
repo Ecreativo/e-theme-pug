@@ -14,6 +14,9 @@
                 <!--<![endif]-->
                 <?php require_once('_includes/_head.php'); ?>
 				<body>
+					<!--[if lt IE 8]>
+					<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+					<![endif]-->
 					<div class="loader">
 			            <img src="<?php echo($link); ?>images/ajax-loader.gif" />
 			            <div class="contentss" id="loadingContent">Cargando...</div>
