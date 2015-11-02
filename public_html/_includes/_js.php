@@ -1,3 +1,8 @@
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+    
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -10,20 +15,19 @@
 	
 <?php if($_SERVER['SERVER_NAME'] == 'localhost'){ ?>
 	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-    <script src="js/plugins/console.js"></script>
-    <script src="js/main.js"></script>
-
 	<!-- JS Plugins -->
-	<script src="static/js/vendor/bootstrap.min.js"></script>
 	<script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js" ></script>
-	<script src="static/js/bootbox.js" ></script>
+	<script src="assets/js/vendor/bootstrap.min.js"></script>
+	<script src="assets/js/plugins/console.js"></script>
+	<script src="assets/js/bootbox.js" ></script>
+	
 	<!-- JS Custom Codes --> 
-	<script src="static/js/cumains.js"></script>
+	<script src="assets/js/main.js"></script>
+	
 	<!--[if lt IE 9]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    
 <?php }else{ ?>
 <!-- JS Loader --> 
 	<script type="text/javascript">

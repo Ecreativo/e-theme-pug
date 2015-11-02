@@ -1,4 +1,28 @@
-# Mac OS X
+## Main
+build/
+
+## Node.js
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+pids
+logs
+results
+npm-debug.log
+node_modules
+
+## Bower
+public_html/_bower_components
+
+## Sass
+.sass-cache
+
+## OS X
 **/*/.DS_Store
 */.DS_Store
 .DS_Store
@@ -10,6 +34,9 @@ Icon
 ._*
 .Spotlight-V100
 .Trashes
-build/
-public_html/_bower_components
 
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/

@@ -9,7 +9,7 @@ RewriteRule ^(.*) http://%1/$1 [R=301,L]
 
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www.(.*) [NC]
-RewriteRule ^(.*)$ http://wiwuxboilerplate.com/$1 [R=301,L]
+RewriteRule ^(.*)$ http://dev.com/$1 [R=301,L]
 
 # fr www.example.com/index.php?page=namepage
 	RewriteCond %{HTTP_HOST} !=localhost
@@ -24,12 +24,12 @@ RewriteRule ^(.*)$ http://wiwuxboilerplate.com/$1 [R=301,L]
 
 	RewriteCond %{HTTP_HOST} =localhost
 	RewriteCond %{THE_REQUEST} \?content=([^&\ ]+)($|\ )
-	RewriteRule ^ /wiwuxboilerplate.com/public_html/%1? [L,R=301]
+	RewriteRule ^ /dev.com/public_html/%1? [L,R=301]
 	
 	RewriteCond %{HTTP_HOST} =localhost
 	RewriteCond %{REQUEST_FILENAME} !-d
 	RewriteCond %{REQUEST_FILENAME} !-f
-	RewriteRule ^([^/]+)$ /wiwuxboilerplate.com/public_html/index.php?content=$1 [L]
+	RewriteRule ^([^/]+)$ /dev.com/public_html/index.php?content=$1 [L]
 	
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>

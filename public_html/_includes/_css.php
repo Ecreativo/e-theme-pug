@@ -1,12 +1,12 @@
 <?php if($_SERVER['SERVER_NAME'] == 'localhost'){ ?>
-	<link rel="stylesheet" href="css/normalize.css">
+	<!--<link rel="stylesheet" href="css/normalize.css">-->
 
 	<!-- Bootstrap -->
-	<link rel="stylesheet" href="static/css/vendor/bootstrap.min.css">
-	<link rel="stylesheet" href="static/css/vendor/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="static/css/main.css">
+	<link rel="stylesheet" href="_bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="_bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="assets/css/main.css">
 	<!-- Icon Fonts -->
-	<link href="static/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+	<link href="assets/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
 	
 	<!--[if lt IE 8]>
 	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -25,7 +25,7 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
 	<!-- theme Style Compiled -->
-	<link href="http://static.wiwuxboilerplate.com/css/style.css" rel="stylesheet">
+	<link href="http://assets.dev.com/css/style.css" rel="stylesheet">
 	
 	<!--[if lt IE 8]>
 	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>

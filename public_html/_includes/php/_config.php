@@ -15,11 +15,11 @@
 	require_once('_functions.php');
 	require_once('_phpmailer.php');
 	///////////////// Opciones Editables /////////////////////
-	$receiving_email_address = "info@wiwuxboilerplate.com";  // Establezca la dirección de correo electrónico donde desea recibir los mensajes.
+	$receiving_email_address = "info@dev.com";  // Establezca la dirección de correo electrónico donde desea recibir los mensajes.
 	$custom_subject = "Nueva Solicitud desde [Regal Wear Online]"; // Cambie la línea de asunto del correo electrónico por su elección.
-	$custom_from = "no-reply@wiwuxboilerplate.com"; // este es el correo remitente.
+	$custom_from = "no-reply@dev.com"; // este es el correo remitente.
 	if($_SERVER['SERVER_NAME'] == 'localhost'){
-		define(URL_NOTIFICACION,"http://localhost/wiwuxboilerplate.com/public_html/content/email/index.php");
+		define(URL_NOTIFICACION,"http://localhost/dev.com/public_html/content/email/index.php");
 	}else{
 		define(URL_NOTIFICACION,"http://".$_SERVER['SERVER_NAME']."/content/email/index.php");
 	}

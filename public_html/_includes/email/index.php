@@ -3,7 +3,7 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Notificaciones wiwuxboilerplate.com</title>
+<title>Notificaciones dev.com</title>
 </head>
 
 <body style="width:100%; min-height:100%; margin:0; padding:0">
@@ -19,7 +19,7 @@
 				<table width="600" style="max-width:100%; font-family:Helvetica" bgcolor="#ffffff" cellspacing="10" cellspacing="10" align="center">
 					<tr>
 						<td>
-							<center><img width="200" alt="wiwuxboilerplate.com" src="http://static.<?php echo $_SERVER['HTTP_HOST']; ?>img/logo.png" /></center>
+							<center><img width="200" alt="dev.com" src="http://static.<?php echo $_SERVER['HTTP_HOST']; ?>img/logo.png" /></center>
 						</td>
 					</tr>
 					<tr bgcolor="#f5f5f5">
@@ -39,7 +39,7 @@
 					</tr>
 					<tr>
 						<td>
-							<center><a style="color:#028FC7; text-decoration:none" href="www.wiwuxboilerplate.com" target="_blank">www.wiwuxboilerplate.com</a></center>
+							<center><a style="color:#028FC7; text-decoration:none" href="www.dev.com" target="_blank">www.dev.com</a></center>
 						</td>
 					</tr>
 				</table>
