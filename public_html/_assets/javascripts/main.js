@@ -14,14 +14,14 @@
         // FastShell Place any jQuery/helper plugins in here.
 
         $(document).ready(function() {
-                setTimeout(function() {
-                    $('.loader').fadeOut('slow');
-                }, 1000)
-            })
-            /*
-             * Translated default messages for the jQuery validation plugin.
-             * Locale: ES
-             */
+            setTimeout(function() {
+                $('.loader').fadeOut('slow');
+            }, 1000)
+        })
+        /*
+         * Translated default messages for the jQuery validation plugin.
+         * Locale: ES
+         */
 
         jQuery.extend(jQuery.validator.messages, {
             required: "No puedes dejar este campo en blanco.",

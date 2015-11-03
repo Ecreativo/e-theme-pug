@@ -1,8 +1,16 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="<?php echo($link); ?>js/scripts.js"><\/script>')</script>
 
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-    
+<!-- JS Plugins -->
+<script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js" ></script>
+
+<!-- JS Custom Codes --> 
+<script src="<?php echo($link); ?>js/main.js"><\/script>
+
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -14,22 +22,10 @@
 </script>
 	
 <?php if($_SERVER['SERVER_NAME'] == 'localhost'){ ?>
-	
-	<!-- JS Plugins -->
-	<script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js" ></script>
-	<script src="assets/js/vendor/bootstrap.min.js"></script>
-	<script src="assets/js/plugins/console.js"></script>
-	<script src="assets/js/bootbox.js" ></script>
-	
-	<!-- JS Custom Codes --> 
-	<script src="assets/js/main.js"></script>
-	
-	<!--[if lt IE 9]>
-    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    
+
 <?php }else{ ?>
 <!-- JS Loader --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
 		$(".loader").fadeOut("slow");

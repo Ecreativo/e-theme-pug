@@ -44,7 +44,7 @@
 <!-- Place favicon.ico in the root directory -->
 
 <?php if($_SERVER['SERVER_NAME'] == 'localhost'){?>
-	<base href="http://localhost/dev.com/public_html/">
+	<base href="http://localhost/dev.com/build/development/">
 <?php }else{ ?>
 	<base href="http://<?php $_SERVER['SERVER_NAME'] ?>">
 <?php } ?>
@@ -69,5 +69,5 @@
 <!-- End Metadata Twitter -->
 
 <?php require_once('_includes/_css.php'); ?>
-<script src="<?php echo($link); ?>js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+<script src="<?php echo($link); ?>js/head.js"></script>
 </head>
