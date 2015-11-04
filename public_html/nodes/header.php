@@ -26,4 +26,3 @@
         <!--/.navbar-collapse -->
     </div>
 </nav>
-</div>

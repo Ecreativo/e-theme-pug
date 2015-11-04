@@ -16,15 +16,15 @@
 	require_once('_phpmailer.php');
 	///////////////// Opciones Editables /////////////////////
 	$receiving_email_address = "info@dev.com";  // Establezca la dirección de correo electrónico donde desea recibir los mensajes.
-	$custom_subject = "Nueva Solicitud desde [Regal Wear Online]"; // Cambie la línea de asunto del correo electrónico por su elección.
+	$custom_subject = "Nueva Solicitud desde [dev.com]"; // Cambie la línea de asunto del correo electrónico por su elección.
 	$custom_from = "no-reply@dev.com"; // este es el correo remitente.
 	if($_SERVER['SERVER_NAME'] == 'localhost'){
 		define(URL_NOTIFICACION,"http://localhost/dev.com/public_html/content/email/index.php");
 	}else{
 		define(URL_NOTIFICACION,"http://".$_SERVER['SERVER_NAME']."/content/email/index.php");
 	}
-	define(EMAIL_NOTIFICACIONES,"backup@esquemacreativo.com"); // este deberia ser el mail donde recoge la base de datos
-	define(FROM_NAME,"Webmaster RegalWear"); // este es el nombre del remitente
+	define(EMAIL_NOTIFICACIONES,"backup@esquemacreativo.com"); // BD
+	define(FROM_NAME,"Webmaster dev.com"); // este es el nombre del remitente
 	/////////////////////////////////////////////////////////
 	if($_SERVER['SERVER_NAME'] == 'localhost'){
 		$link = "assets/";

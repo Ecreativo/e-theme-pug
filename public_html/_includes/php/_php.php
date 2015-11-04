@@ -90,9 +90,7 @@
 			";
 			}else{
 				echo "
-				<div class='alert alert-success' id='contactsuccess'>
-                       Gracias por escribirnos <strong>$nombre.</strong> Hemos recibido su mensaje y pronto estaremos en contacto.
-                    </div>
+				<div class='alert alert-success' id='contactsuccess'>Gracias por escribirnos <strong>$nombre.</strong> Hemos recibido su mensaje y pronto estaremos en contacto.</div>
                 ";
 			}
 		}
