@@ -44,7 +44,7 @@
 	<!-- Place favicon.ico in the root directory -->
 	
 	<?php if($_SERVER['SERVER_NAME'] == 'localhost'){?>
-		<base href="//localhost/dev.com/build/development/">
+		<base href="http://localhost/dev.com/">
 	<?php }else{ ?>
 		<base href="//<?php $_SERVER['SERVER_NAME'] ?>">
 	<?php } ?>
