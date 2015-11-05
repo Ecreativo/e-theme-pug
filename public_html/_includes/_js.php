@@ -1,11 +1,11 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script>window.jQuery || document.write('<script src="<?php echo($link); ?>js/scripts.js"><\/script>')</script>
+<script>window.jQuery || document.write('<script src="assets/js/scripts.js"><\/script>')</script>
 
 <!-- JS Plugins -->
 <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js" ></script>
 
 <!-- JS Custom Codes --> 
-<script src="<?php echo($link); ?>js/main.js"><\/script>
+<script src="assets/js/main.js"><\/script>
 
 <!--[if lt IE 9]>
 <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>

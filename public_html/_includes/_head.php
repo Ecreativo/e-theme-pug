@@ -63,5 +63,5 @@
 	<!-- End Metadata Twitter -->
 	
 	<?php require_once('_includes/_css.php'); ?>
-	<script src="<?php echo($link); ?>js/head.js"></script>
+	<script src="assets/js/head.js"></script>
 </head>
