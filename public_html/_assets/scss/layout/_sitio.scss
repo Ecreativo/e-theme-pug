@@ -1,0 +1,100 @@
+
+
+
+
+
+/*------------------------------------*\
+    $SITIO
+\*------------------------------------*/
+
+@-webkit-viewport {
+	width : device-width;
+}
+
+
+@-moz-viewport {
+	width : device-width;
+}
+
+@-ms-viewport {
+	width : device-width;
+}
+
+@-o-viewport {
+	width : device-width;
+}
+
+@viewport {
+	width : device-width;
+}
+
+html {
+	background : $background;
+	font-size : 100%;
+	-webkit-overflow-scrolling : touch;
+	-webkit-tap-highlight-color : transparent;
+	-webkit-text-size-adjust : 100%;
+	-ms-text-size-adjust : 100%;
+}
+
+body {
+	margin : 0;
+	padding : 0;
+	width : 100%;
+	background-color : transparent;
+	font-family : $basefont;
+	line-height : $baselineheight;
+	color : $textcolor;
+}
+
+body {
+  font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
+  -webkit-transition: all 0.4s 0.3s ease-in;
+          transition: all 0.4s 0.3s ease-in; }
+
+body, html {
+  min-height: 100vh;
+  overflow: hidden; }
+
+
+/**
+* A partir de aquí es donde debes escribir los estilos de posicionamiento
+* y detalles que forman tu web. Disfruta!
+*/
+
+* {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+
+.nav {
+list-style: none outside none;
+}
+
+
+/*------------------------------------*\
+    $CARGADOR
+\*------------------------------------*/
+
+.loader{
+background: rgba(0,0,0,0.7);
+position: fixed;
+width: 100%;
+height: 100%;
+z-index: 100000;
+}
+.loader img{
+position: relative;
+left: 50%;
+top: 50%;
+margin: -25px 0 0 -25px;
+}
+.loader .contentss {
+position: relative;
+text-align: center;
+color: #fff;
+margin-left: 10px;
+top: 50%;
+}
+

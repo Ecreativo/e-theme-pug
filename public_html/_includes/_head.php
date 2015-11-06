@@ -35,8 +35,8 @@
 	<link rel="icon" type="image/png" href="assets/images/ico/favicon-16x16.png" sizes="16x16">
 	<link rel="manifest" href="assets/images/ico/manifest.json">
 	<link rel="shortcut icon" href="assets/images/ico/favicon.ico">
-	<meta name="apple-mobile-web-app-title" content="Wiwux">
-	<meta name="application-name" content="Wiwux">
+	<meta name="apple-mobile-web-app-title" content="dev.com">
+	<meta name="application-name" content="dev.com">
 	<meta name="msapplication-TileColor" content="#000000">
 	<meta name="msapplication-TileImage" content="assets/images/ico/mstile-144x144.png">
 	<meta name="msapplication-config" content="assets/images/ico/browserconfig.xml">
