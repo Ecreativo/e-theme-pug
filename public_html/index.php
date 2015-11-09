@@ -33,7 +33,7 @@
 							require "nodes/404.php";
 						}
 					?>
+                    </div>					
                     <?php require_once('_includes/_footer.php'); ?>
-                    </div>
-                </body>
+				</body>
             </html>

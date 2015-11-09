@@ -42,12 +42,8 @@
 	<meta name="msapplication-config" content="assets/images/ico/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
 	<!-- Place favicon.ico in the root directory -->
-	
-	<?php if($_SERVER['SERVER_NAME'] == 'localhost'){?>
-		<base href="http://localhost/dev.com/">
-	<?php }else{ ?>
-		<base href="//<?php $_SERVER['SERVER_NAME'] ?>">
-	<?php } ?>
+
+	<base href="http://localhost/dev.com/">
 	
 	<link rel="canonical" href="//www.dev.com">
 	<link rel="alternate" href="//www.dev.com" hreflang=”es-co”>
