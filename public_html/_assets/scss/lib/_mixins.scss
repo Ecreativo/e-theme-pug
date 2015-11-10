@@ -8,6 +8,12 @@
 \*------------------------------------*/
 
 
+//Back Ground 
+%pattern-light-grey {
+  background-color: $background-color;
+  background-image: url(/assets/images/patterns/light_grey.png);
+  background-size: 301px 621px;
+}
 
 /*
 * Fácil de usar: las variables a usar están en settings.scss y son:
