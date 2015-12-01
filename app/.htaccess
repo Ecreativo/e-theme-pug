@@ -5,9 +5,6 @@ AddCharset utf-8 .css
 
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www.(.*) [NC]
-RewriteRule ^(.*) http://%1/$1 [R=301,L]
-
-RewriteCond %{HTTP_HOST} ^www.(.*) [NC]
 RewriteRule ^(.*)$ http://dev.com/$1 [R=301,L]
 
 # fr www.example.com/index.php?page=namepage
@@ -65,7 +62,6 @@ AddOutputFilterByType DEFLATE image/jpeg
 <ifModule mod_gzip.c>
 mod_gzip_on Yes
 mod_gzip_dechunk Yes
-
 mod_gzip_item_include file .(html?|txt|css|js|php|pl)$
 mod_gzip_item_include handler ^cgi-script$
 mod_gzip_item_include mime ^text/.*

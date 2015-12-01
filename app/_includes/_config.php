@@ -19,15 +19,15 @@
 	$custom_subject = "Nueva Solicitud desde [dev.com]"; // Cambie la línea de asunto del correo electrónico por su elección.
 	$custom_from = "no-reply@dev.com"; // este es el correo remitente.
 	if($_SERVER['SERVER_NAME'] == 'localhost'){
-		define(URL_NOTIFICACION,"http://localhost/dev.com/public_html/content/email/index.php");
+		define(URL_NOTIFICACION,"http://localhost/ilpingenieria.com/build/public_html/_includes/email/index.php");
 	}else{
-		define(URL_NOTIFICACION,"http://".$_SERVER['SERVER_NAME']."/content/email/index.php");
+		define(URL_NOTIFICACION,"http://".$_SERVER['SERVER_NAME']."/_includes/email/index.php");
 	}
 	define(EMAIL_NOTIFICACIONES,"backup@esquemacreativo.com"); // BD
 	define(FROM_NAME,"Webmaster dev.com"); // este es el nombre del remitente
 	/////////////////////////////////////////////////////////
 	if($_SERVER['SERVER_NAME'] == 'localhost'){
-		$link = "assets/";
+		$link = "./static/";
 		
 	}else{
 		$link = "http://static.".$_SERVER['SERVER_NAME']."/";

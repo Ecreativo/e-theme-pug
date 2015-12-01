@@ -9,5 +9,3 @@
 $ Git Clone
 $ npm install
 ```
-
-Este tutorial incluye algunos archivos de demostración:

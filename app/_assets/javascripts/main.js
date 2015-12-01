@@ -1,29 +1,13 @@
-/*!
- * fastshell
- * Fiercely quick and opinionated front-ends
- * https://HosseinKarami.github.io/fastshell
- * @author Hossein Karami
- * @version 1.0.3
- * Copyright 2014. MIT licensed.
- */
 (function($, window, document, undefined) {
 
     'use strict';
 
     $(function() {
-        // FastShell Place any jQuery/helper plugins in here.
-
-        $(document).ready(function() {
-            setTimeout(function() {
-                $('.loader').fadeOut('slow');
-            }, 1000)
-        })
         /*
          * Translated default messages for the jQuery validation plugin.
          * Locale: ES
          */
-
-        jQuery.extend(jQuery.validator.messages, {
+		jQuery.extend(jQuery.validator.messages, {
             required: "No puedes dejar este campo en blanco.",
             remote: "Por favor, rellena este campo.",
             email: "Por favor, escribe una dirección de correo válida",

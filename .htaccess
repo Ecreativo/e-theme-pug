@@ -1,8 +1,8 @@
 DirectoryIndex index.php
 RewriteEngine on
 
-RewriteRule ^(index\.php)?$ public_html/$1 [L]
+RewriteRule ^(index\.php)?$ app/$1 [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.+)$ public_html/$1 [L]
+RewriteRule ^(.+)$ app/$1 [L]
