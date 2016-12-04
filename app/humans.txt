@@ -5,15 +5,14 @@
     CEO, Web designer & UI developer: Oscar Camilo Ruiz
     Contact: hola [at] esquemacreativo.com
 	Twitter: @CamiloRojjas
-	Phone: 320 433 1681
+	Phone: +57 1 320 433 1681 - +44 0 772 248 4369 
 	G+:https://plus.google.com/+CamiloRuiz/
-	Location: Bogotá, Colombia.
+	Location: --< city >--, --< country >--.
 	From: Bogotá, Colombia.
-	CTO: Camilo Ruiz
+	CTO: Oscar Camilo Ruiz
 
 # THANKS
-
-    Name: Juan Carlos Rodriguez Pinto.
+ --< name >--
 
 # SITE 
 	
@@ -23,24 +22,10 @@
 	G+: https://plus.google.com/+Esquemacreativo
 	Language: Spanish
 	CreationDate: 14/11/2014
-	Last update: 2015/03/16
+	Last update: 04/12/2016
 	Version: 1.0.0
 
 # TECHNOLOGY COLOPHON
-	Doctype:html-css-js-jQuery-php
+	Doctype: html-css-js-jQuery-php
 	Standards & Components: HTML5, CSS3, jQuery, Modernizr, XML Technology, Bootstrap.
 	IDE & Software: Coda 2, Mamp, Photoshop.
-
-
-
-	
-	
-	
-	
-	
-    	
-		
-
-
-
-
