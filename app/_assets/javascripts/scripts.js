@@ -1,8 +1,7 @@
+require('jquery');
+require('console');
 require('bootstrap');
 require('bootbox');
-
 require('validate');
-require('owl-carousel');
 require('venobox');
-
-require('main');
+require('application');
