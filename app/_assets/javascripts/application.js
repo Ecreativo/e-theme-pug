@@ -1,29 +1,29 @@
 (function($, window, document, undefined) {
 
     'use strict';
-    
+
     $(function() {
-		console.log('jQuery,Boostrap and Modernizr loaded');
-	});
-	
-	function cargar() {
+        console.log('jQuery,Boostrap and Modernizr loaded');
+    });
+
+    function cargar() {
         $('.loader').fadeIn();
     }
 
     function descargar() {
         $('.loader').fadeOut();
     }
-    
-	$(document).ready(function(){
-		descargar();
-	});
-	
+
+    $(document).ready(function() {
+        descargar();
+    });
+
     $(function() {
         /*
          * Translated default messages for the jQuery validation plugin.
          * Locale: ES
          */
-		jQuery.extend(jQuery.validator.messages, {
+        jQuery.extend(jQuery.validator.messages, {
             required: "No puedes dejar este campo en blanco.",
             remote: "Por favor, rellena este campo.",
             email: "Por favor, escribe una dirección de correo válida",
@@ -42,8 +42,6 @@
             max: jQuery.validator.format("Por favor, escribe un valor menor o igual a {0}."),
             min: jQuery.validator.format("Por favor, escribe un valor mayor o igual a {0}.")
         });
-        
-        
 
         $('#contactenos').validate({
             submitHandler: function(form) {
@@ -58,51 +56,48 @@
                     });
             }
         });
-        
+
         var Flickity = require('flickity');
 
-        var flickity = new Flickity( '.main-carousel', {
-          cellSelector: '.custom_slide',
-          accessibility: false,
-          cellAlign: 'center',
-          draggable: true,
-          autoPlay: false,
-          wrapAround: true,
-          prevNextButtons: true,
-          pageDots: false,
-          lazyLoad: true,
-          imagesLoaded: true
+        var flickity = new Flickity('.main-carousel', {
+            cellSelector: '.custom_slide',
+            accessibility: false,
+            cellAlign: 'center',
+            draggable: true,
+            autoPlay: false,
+            wrapAround: true,
+            prevNextButtons: true,
+            pageDots: false,
+            lazyLoad: true,
+            imagesLoaded: true
         });
-        
-        var flickitys = new Flickity( '.main-carousel3', {
-          cellSelector: '.custom_slide',
-          accessibility: false,
-          cellAlign: 'center',
-          draggable: true,
-          autoPlay: false,
-          wrapAround: true,
-          prevNextButtons: true,
-          pageDots: false,
-          lazyLoad: true,
-          imagesLoaded: true
+
+        var flickitys = new Flickity('.main-carousel3', {
+            cellSelector: '.custom_slide',
+            accessibility: false,
+            cellAlign: 'center',
+            draggable: true,
+            autoPlay: false,
+            wrapAround: true,
+            prevNextButtons: true,
+            pageDots: false,
+            lazyLoad: true,
+            imagesLoaded: true
         });
-        
-        $('#houseModal').on( 'shown.bs.modal', function() {
-          flickity.resize();
+
+        $('#houseModal').on('shown.bs.modal', function() {
+            flickity.resize();
         });
-        
-        $('#flatModal').on( 'shown.bs.modal', function() {
-          flickitys.resize();
+
+        $('#flatModal').on('shown.bs.modal', function() {
+            flickitys.resize();
         });
-        
-        
-        
-        
-        
+
+
         //var jQueryBridget = require('jquery-bridget');
         //var Flickity = require('flickity');
         //jQueryBridget( 'flickity', Flickity, $ );
-                
+
         //$('.main-carousel').flickity({
         //    cellSelector: '.custom_slide',
         //    accessibility: false,
@@ -115,11 +110,11 @@
         //    lazyLoad: true,
         //    imagesLoaded: true
         //});
-        
+
         //$('#myModal').on( 'shown.bs.modal', function( event ) {
         //  $('.main-carousel').flickity('resize');
         //});
-        
+
     });
 
 })(jQuery, window, document);
