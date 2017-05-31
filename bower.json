@@ -7,7 +7,7 @@
     "bootstrap": "v4.0.0-alpha.6",
     "bootbox.js": "bootbox#~4.4.0",
     "Swiper": "idangerous-swiper#~3.2.0",
-    "venobox": "~1.6.0",
+    "venobox": "~1.8.0",
     "jquery-validation": "jquery.validate#~1.13.0",
     "jquery.stellar": "stellar.js#~0.6.2"
   }
