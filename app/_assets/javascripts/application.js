@@ -18,6 +18,32 @@
         descargar();
     });
 
+    /* ==============================================
+    GO TO TOP
+    =============================================== */
+
+    jQuery(document).ready(function ($) {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('.back-to-top').fadeIn('slow');
+            } else {
+                $('.back-to-top').fadeOut('slow');
+            }
+        });
+        $('.back-to-top').click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 500);
+            return false;
+        });
+        $('.go-to-top').click(function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 500);
+            return false;
+        });
+    });
+    
     $(function() {
         /*
          * Translated default messages for the jQuery validation plugin.
@@ -59,21 +85,8 @@
 
         var Flickity = require('flickity');
 
-        var flickity = new Flickity('.main-carousel', {
-            cellSelector: '.custom_slide',
-            accessibility: false,
-            cellAlign: 'center',
-            draggable: true,
-            autoPlay: false,
-            wrapAround: true,
-            prevNextButtons: true,
-            pageDots: false,
-            lazyLoad: true,
-            imagesLoaded: true
-        });
-
-        var flickitys = new Flickity('.main-carousel3', {
-            cellSelector: '.custom_slide',
+        var flickity = new Flickity('.slider', {
+            cellSelector: '.slide',
             accessibility: false,
             cellAlign: 'center',
             draggable: true,
@@ -88,33 +101,6 @@
         $('#houseModal').on('shown.bs.modal', function() {
             flickity.resize();
         });
-
-        $('#flatModal').on('shown.bs.modal', function() {
-            flickitys.resize();
-        });
-
-
-        //var jQueryBridget = require('jquery-bridget');
-        //var Flickity = require('flickity');
-        //jQueryBridget( 'flickity', Flickity, $ );
-
-        //$('.main-carousel').flickity({
-        //    cellSelector: '.custom_slide',
-        //    accessibility: false,
-        //    cellAlign: 'center',
-        //    draggable: true,
-        //    autoPlay: false,
-        //    wrapAround: true,
-        //    prevNextButtons: true,
-        //    pageDots: false,
-        //    lazyLoad: true,
-        //    imagesLoaded: true
-        //});
-
-        //$('#myModal').on( 'shown.bs.modal', function( event ) {
-        //  $('.main-carousel').flickity('resize');
-        //});
-
     });
 
 })(jQuery, window, document);
