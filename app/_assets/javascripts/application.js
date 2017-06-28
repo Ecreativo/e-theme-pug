@@ -14,7 +14,7 @@
         $('.loader').fadeOut();
     }
 
-    $(document).ready(function() {
+    $(window).load(function() {
         descargar();
     });
 
