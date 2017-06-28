@@ -13,7 +13,6 @@
     $(document).ready(function() {
         descargar();
     });
-
     /* ==============================================
     GO TO TOP
     =============================================== */
@@ -43,8 +42,6 @@
     /* ==============================================
     Flickity
     =============================================== */
-
-    var Flickity = require('flickity');
 
     var flickity = new Flickity('.slider', {
         cellSelector: '.slide',
