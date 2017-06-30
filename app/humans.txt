@@ -3,7 +3,7 @@
 # TEAM
 
     CEO, Web designer & UI developer: Oscar Camilo Ruiz
-    Contact: hola [at] esquemacreativo.com
+    Contact: hola [at] camiloruiz.co.uk
 	Twitter: @CamiloRojjas
 	Phone: +57 1 320 433 1681 - +44 0 772 248 4369 
 	G+:https://plus.google.com/+CamiloRuiz/
@@ -16,16 +16,16 @@
 
 # SITE 
 	
-	Site Name: Wiwux Media
-	Site URL: http://www.esquemacreativo.com/
+	Site Name: E-theme
+	Site URL: http://etheme.camiloruiz.co.uk/
 	Twitter: @CamiloRojjas
 	G+: https://plus.google.com/+Esquemacreativo
-	Language: Spanish
+	Language: English
 	CreationDate: 14/11/2014
-	Last update: 04/12/2016
+	Last update: 30/06/2017
 	Version: 1.0.0
 
 # TECHNOLOGY COLOPHON
-	Doctype: html-css-js-jQuery-php
+	Doctype: html-css-js-jquery-php
 	Standards & Components: HTML5, CSS3, jQuery, Modernizr, XML Technology, Bootstrap.
 	IDE & Software: Coda 2, Mamp, Photoshop.
