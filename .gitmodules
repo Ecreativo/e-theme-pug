@@ -1,4 +1,4 @@
-[submodule "app/_assets/scss"]
-	path = app/_assets/scss
+[submodule "src/_assets/scss"]
+	path = src/_assets/scss
 	url = https://github.com/Camiloruiiz/scss-framework
 	branch = master
