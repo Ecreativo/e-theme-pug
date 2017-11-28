@@ -9,10 +9,12 @@ window.Popper = require('popper.js')
 //require('bootstrap')
 
 // import plugins individually
-import 'bootstrap/js/dist/util';
+import 'bootstrap/js/dist/dropdown';
 import 'bootstrap/js/dist/modal';
-import 'bootstrap/js/dist/tooltip';
 import 'bootstrap/js/dist/popover';
+import 'bootstrap/js/dist/tooltip';
+import 'bootstrap/js/dist/util';
+
 
 // If you have ES6 transpiler then you could code below and will be able to customize what modules will be included in the build.
 //import 'bootstrap/js/src/alert';
@@ -27,7 +29,7 @@ import 'bootstrap/js/dist/popover';
 //import 'bootstrap/js/src/tooltip';
 //import 'bootstrap/js/src/util';
 
-//import '../scss/main.scss'
+import '../scss/main.scss'
 
 // use tooltip and popover components everywhere
 $(function (){
