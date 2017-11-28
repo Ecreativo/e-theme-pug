@@ -1,19 +1,39 @@
 header.head.site-header
-  nav.navbar.navbar-toggleable-md.navbar-inverse.fixed-top
-  button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarNavDropdown', aria-controls='navbarNavDropdown', aria-expanded='false', aria-label='Toggle navigation')
-    span.navbar-toggler-icon
-  a.navbar-brand(href='#')
-  #navbarNavDropdown.collapse.navbar-collapse
-    ul.navbar-nav
-      li.nav-item.active
-        a.nav-link(href='#')
-          | Home 
-          span.sr-only (current)
-      li.nav-item
-        a.nav-link(href='#') Features
-      li.nav-item
-        a.nav-link(href='#') Pricing
-      li.nav-item.dropdown
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light
+    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarTogglerDemo01', aria-controls='navbarTogglerDemo01', aria-expanded='false', aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #navbarTogglerDemo01.collapse.navbar-collapse
+      a.navbar-brand(href='#') Hidden brand
+      ul.navbar-nav.mr-auto.mt-2.mt-lg-0
+        li.nav-item.active
+          a.nav-link(href='#')
+            | Home 
+            span.sr-only (current)
+        li.nav-item
+          a.nav-link(href='#') Link
+        li.nav-item
+          a.nav-link.disabled(href='#') Disabled
+      form.form-inline.my-2.my-lg-0
+        input.form-control.mr-sm-2(type='search', placeholder='Search', aria-label='Search')
+        button.btn.btn-outline-success.my-2.my-sm-0(type='submit') Search
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light
+    //nav.navbar.navbar-toggleable-md.navbar-inverse.fixed-top
+    button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarNavDropdown', aria-controls='navbarNavDropdown', aria-expanded='false', aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    a.navbar-brand(href='#') Navbar
+    #navbarNavDropdown.collapse.navbar-collapse
+      ul.navbar-nav
+        li.nav-item.active
+          a.nav-link(href='#')
+            | Home 
+            span.sr-only (current)
+        li.nav-item
+          a.nav-link(href='#') Features
+        li.nav-item
+          a.nav-link(href='#') Pricing
+        li.nav-item
+          a.nav-link.disabled(href='#') Disabled
+        li.nav-item.dropdown
         a#navbarDropdownMenuLink.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
           | Dropdown link
         .dropdown-menu(aria-labelledby='navbarDropdownMenuLink')
