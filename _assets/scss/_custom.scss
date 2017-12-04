@@ -1,0 +1,357 @@
+// Variables
+//
+// Copy settings from this file into the provided `_custom.scss` to override
+// the Bootstrap defaults without modifying key, versioned files.
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex   : $nav-link-disabled-color and $modal-content-box-shadow-xs.
+// Table of Contents
+//
+// Color system
+// Options
+// Spacing
+// Body
+// Links
+// Grid breakpoints
+// Grid containers
+// Grid columns
+// Fonts
+// Components
+// Tables
+// Buttons
+// Forms
+// Dropdowns
+// Z-index master list
+// Navs
+// Navbar
+// Pagination
+// Jumbotron
+// Form states and alerts
+// Cards
+// Tooltips
+// Popovers
+// Badges
+// Modals
+// Alerts
+// Progress bars
+// List group
+// Image thumbnails
+// Figures
+// Breadcrumbs
+// Carousel
+// Close
+// Code
+//
+// Color system
+//
+// Start with assigning color names to specific hex values.
+$white                     : #fff;
+$gray-100                  : #f8f9fa;
+//$gray-200                : #e9ecef;
+$gray-200                  : #f1f5fa;
+$gray-300                  : #dee2e6;
+$gray-400                  : #ced4da;
+$gray-500                  : #adb5bd;
+$gray-501                  : #91a1b4;
+$gray-600                  : #868e96;
+$gray-601                  : #637285;
+$gray-700                  : #495057;
+$gray-800                  : #343a40;
+$gray-900                  : #212529;
+$black                     : #000;
+
+$grays                     : ( 100: $gray-100,
+200                        : $gray-200,
+300                        : $gray-300,
+400                        : $gray-400,
+500                        : $gray-500,
+600                        : $gray-600,
+700                        : $gray-601,
+800                        : $gray-700,
+900                        : $gray-900);
+
+$navy                      : #002e49;
+$blue                      : #007bff;
+$my-blue                   : #0091dc;
+$indigo                    : #6610f2;
+$purple                    : #6f42c1;
+$pink                      : #e83e8c;
+$red                       : #dc3545;
+$orange                    : #fd7e14;
+$yellow                    : #ffc107;
+$green                     : #28a745;
+$teal                      : #20c997;
+$cyan                      : #17a2b8;
+
+$colors                    : ( navy: $navy,
+blue                       : $my-blue,
+indigo                     : $indigo,
+purple                     : $purple,
+pink                       : $pink,
+red                        : $red,
+orange                     : $orange,
+yellow                     : $yellow,
+green                      : $green,
+teal                       : $teal,
+cyan                       : $cyan,
+white                      : $white,
+gray                       : $gray-501,
+gray-dark                  : $gray-800);
+
+
+// $BRAND STUFF
+// Reassign color vars to semantic color scheme
+$brand-color               : $navy;
+$brand-primary             : $my-blue;
+$brand-success             : $green;
+$brand-info                : $teal;
+$brand-warning             : $orange;
+$brand-danger              : $red;
+$brand-inverse             : $gray-900;
+
+
+$theme-colors              : ( brand: $navy,
+primary                    : $my-blue,
+secondary                  : $gray-601,
+success                    : $green,
+info                       : $gray-501,
+warning                    : $yellow,
+danger                     : $red,
+light                      : $gray-200,
+gray                       : $gray-501,
+dark                       : $gray-800,
+white                      : $white,
+black                      : $black);
+
+
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+$enable-rounded            : true;
+$enable-shadows            : false;
+$enable-gradients          : false;
+$enable-transitions        : true;
+$enable-hover-media-query  : false;
+$enable-grid-classes       : true;
+$enable-print-styles       : true;
+
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+$spacer                    : 1rem;
+
+$spacers                   : ( 0: 0,
+1                          : ($spacer * .25),
+2                          : ($spacer * .5),
+3                          : $spacer,
+4                          : ($spacer * 1.5),
+5                          : ($spacer * 2.5));
+
+// Body
+//
+// Settings for the `<body>` element.
+$body-bg                   : $white;
+$body-color                : $gray-601;
+
+// Links
+//
+// Style anchor elements.
+$link-color                : theme-color("brand");
+$link-decoration           : none;
+$link-hover-color          : darken($link-color, 15%);
+$link-hover-decoration     : none;
+
+
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+$grid-breakpoints          : ( xs: 0,
+small-mobile               : 375px,
+sm                         : 576px,
+md                         : 768px,
+lg                         : 992px,
+xl                         : 1200px,
+desktop                    : 1480px);
+
+// $BREAKPOINTS
+//
+// "Start with the mobile screen first, then expand until it looks like shit. Time to insert a breakpoint!"
+$xs                        : 0px;
+$small-mobile              : 375px;
+$mobile                    : 576px;
+$tablet                    : 768px;
+$laptop                    : 992px;
+$small-desktop             : 1200px;
+$desktop                   : 1480px;
+$viewport-increment        : 1px;
+
+
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+$container-max-widths      : (sm: 540px, md: 720px, lg: 960px, xl: 1170px);
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+$grid-columns              : 12;
+
+// Components
+//
+// Define common padding and border radius sizes and more.
+$line-height-lg            : 1.5;
+$line-height-sm            : 1.5;
+
+
+$border-radius             : .3rem;
+$border-radius-lg          : .35rem;
+$border-radius-sm          : .25rem;
+
+
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+$montserrat                : 'Montserrat',
+Tahoma,
+sans-serif;
+$lato                      : 'Lato',
+Arial,
+sans-serif;
+$karla                     : 'Karla',
+Arial,
+Tahoma,
+sans-serif;
+$lora                      : 'Lora',
+serif;
+$arabic                    : 'Amiri',
+serif;
+
+$font-weight-normal        : normal;
+
+// $FONT-FACE
+$font-family-base          : $karla;
+$icon-family-base          : 'mka';
+$font-family-headings      : $montserrat;
+
+// $FONT-SIZES
+$font-size-base            : 1.6rem;
+$font-size-lg              : 1.4rem;
+$font-size-sm              : 1.2rem;
+
+
+$font-weight-normal        : normal;
+$font-weight-bold          : bold;
+
+$font-weight-base          : $font-weight-normal;
+$line-height-base          : 1.5;
+
+$font-size-btn             : 1.3rem;
+$font-size-mobile          : 1.4rem;
+
+// $Headings
+$h1-font-size              : 3.2rem;
+$h2-font-size              : 2.4rem;
+$h3-font-size              : 1.8rem;
+$h4-font-size              : 1.6rem;
+$h5-font-size              : 1.4rem;
+$h6-font-size              : 1.2rem;
+
+$headings-margin-bottom    : $spacer;
+$headings-font-family      : $font-family-headings;
+$headings-font-weight      : 700;
+$headings-line-height      : 1.1;
+$headings-color            : $brand-color;
+
+// $FONT-RANGE
+$font-range                : 22.86rem 81rem;
+
+// $HEADER
+$desktop-header-height     : 143px;
+$mobile-header-height      : 144px;
+$desktop-footer-height     : 50px;
+$hamburger-height          : 21px;
+$hamburger-width           : 30px;
+$hamburger-line-height     : 3px;
+$hamburger-translateY      : ($hamburger-height - $hamburger-line-height) / 2;
+
+
+// Buttons
+//
+// For each of Bootstrap's buttons, define text, background and border color.
+$input-btn-padding-y       : 1.2rem;
+$input-btn-padding-x       : 2.1rem;
+$input-btn-line-height     : 1.25;
+
+$input-btn-padding-y-sm    : .7rem;
+$input-btn-padding-x-sm    : 1.6rem;
+$input-btn-line-height-sm  : 1.25;
+
+$input-btn-padding-y-lg    : 1.2rem;
+$input-btn-padding-x-lg    : 6rem;
+$input-btn-line-height-lg  : 1.25;
+
+$btn-font-weight           : 700;
+$btn-box-shadow            : none;
+$btn-focus-box-shadow      : none;
+$btn-active-box-shadow     : none;
+
+$btn-primary-color         : $white;
+$btn-primary-bg            : $brand-primary;
+$btn-primary-border        : $btn-primary-bg;
+
+$btn-secondary-color       : $white;
+$btn-secondary-bg          : $gray-601;
+$btn-secondary-border      : $btn-secondary-bg;
+
+$btn-white-color           : $brand-primary;
+$btn-white-bg              : $white;
+$btn-white-border          : $btn-white-bg;
+
+$btn-link-disabled-color   : $gray-601;
+
+
+
+$btn-padding-x-sm          : 1.6rem;
+$btn-padding-y-sm          : .7rem;
+
+$btn-padding-x-lg          : 6rem;
+$btn-padding-y-lg          : 1.2rem;
+
+$btn-block-spacing-y       : .5rem;
+$btn-toolbar-margin        : .5rem;
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius         : $border-radius;
+$btn-border-radius-lg      : $border-radius-lg;
+$btn-border-radius-sm      : $border-radius-sm;
+
+$btn-transition            : all 300ms linear;
+
+// Badges
+$badge-color               : $white;
+$badge-font-size           : 1.2rem;
+$badge-font-weight         : $font-weight-bold;
+$badge-padding-y           : .65em;
+$badge-padding-x           : 2em;
+
+$badge-pill-padding-x      : .6em;
+// Use a higher than normal value to ensure completely rounded edges when
+// customizing padding or font-size on labels.
+$badge-pill-border-radius  : 10rem;
+
+// ----- Progress Tracker Theme -----
+$progress-color-dark       : $brand-success;
+$progress-color            : $brand-primary;
+$progress-color-light      : lighten($brand-primary, 10%);
+$progress-color-grey-light : $gray-300;
+$progress-color-grey       : $gray-400;
+$progress-color-grey-dark  : $brand-color;
+
+$path-height               :               3px !default;

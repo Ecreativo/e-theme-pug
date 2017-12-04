@@ -1,0 +1,16 @@
+// $FONTS
+
+/* load the default Google font */
+//@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@font-face {
+  font-family: "e-theme";
+  src:url("../fonts/e-theme.eot");
+  src:url("../fonts/e-theme.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/e-theme.woff") format("woff"),
+    url("../fonts/e-theme.ttf") format("truetype"),
+    url("../fonts/e-theme.svg#e-theme") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}

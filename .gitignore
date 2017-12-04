@@ -1,6 +1,5 @@
 ## Main
-public_html/
-app/static/
+static/
 
 ## Node.js
 lib-cov
