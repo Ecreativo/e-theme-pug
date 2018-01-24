@@ -24,10 +24,10 @@ import 'bootstrap/js/dist/popover'
 import 'bootstrap/js/dist/tooltip'
 import 'bootstrap/js/dist/util'
 
-import '../scss/main.scss'
-
 // use tooltip and popover components everywhere
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-  $('[data-toggle="popover"]').popover()
-})
+if ($('[data-toggle="tooltip"]').length || $('[data-toggle="popover"]').length) {
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+    $('[data-toggle="popover"]').popover()
+  })
+}

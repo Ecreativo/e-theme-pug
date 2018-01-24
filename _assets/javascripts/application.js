@@ -6,6 +6,9 @@ import $initMap from './map'
 // import Isotope from './isotope';
 // import magnificPopup from 'magnific-popup'
 
+// import main style
+import '../scss/main.scss'
+
 (function($, window, document, undefined) {
   'use strict'
   $slider()
