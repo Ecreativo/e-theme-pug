@@ -7,9 +7,9 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://dev.com/</loc>
+  <loc>http://site.com/</loc>
 </url>
 <url>
-  <loc>http://dev.com/index.php</loc>
+  <loc>http://site.com/index.php</loc>
 </url>
 </urlset>
