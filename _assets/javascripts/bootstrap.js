@@ -5,6 +5,7 @@
 // require('bootstrap')
 
 // If you have ES6 transpiler then you could code below and will be able to customize what modules will be included in the build.
+
 // import 'bootstrap/js/src/alert'
 // import 'bootstrap/js/src/button'
 // import 'bootstrap/js/src/carousel'
@@ -18,9 +19,16 @@
 // import 'bootstrap/js/src/util'
 
 // import plugins individually
+
+// import 'bootstrap/js/dist/alert'
+// import 'bootstrap/js/dist/button'
+// import 'bootstrap/js/dist/carousel'
+import 'bootstrap/js/dist/collapse'
 import 'bootstrap/js/dist/dropdown'
 import 'bootstrap/js/dist/modal'
 import 'bootstrap/js/dist/popover'
+// import 'bootstrap/js/dist/scrollspy'
+// import 'bootstrap/js/dist/tab'
 import 'bootstrap/js/dist/tooltip'
 import 'bootstrap/js/dist/util'
 

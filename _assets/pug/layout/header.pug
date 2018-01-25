@@ -1,9 +1,15 @@
 header.head.site-header
   nav.navbar.navbar-expand-lg.navbar-dark.bg-brand.fixed-top
     .container
-      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
-        span.navbar-toggler-icon
       a.navbar-brand.e-brand(href='#')
+      .burger__container
+        a.navbar-brand.e-brand.d-md-none(href='#')
+        a.burger__icon(href='#', onclick='return false;', title='Menu', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+          span.line-1
+          |                                 
+          span.line-2
+          |                                 
+          span.line-3
       #navbarSupportedContent.collapse.navbar-collapse
         ul.navbar-nav.mr-auto
           li.nav-item.active
