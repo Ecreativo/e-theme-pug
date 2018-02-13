@@ -2,9 +2,10 @@ doctype html
 html(lang="en")
   include layout/head.pug
   body.site
-    .loader.loader__background(role='alert')
+    #loader.loader(role='alert')
+      .loader__backdrop
       .loader__content
-        img(src='static/images/ajax-loader.gif')
+        img.loader__img(src='static/images/ajax-loader.gif')
         #loadingContent.loader__text Cargando...
     #page.site.site-wrapper
       include layout/header.pug
