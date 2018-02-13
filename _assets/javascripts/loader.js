@@ -3,15 +3,18 @@ LOADER
 =============================================== */
 
 export default function $loader() {
-  // function load() {
-  // $('.loader').fadeIn()
-  // }
+  var $loader = {
+    el: '#loader',
+    in: function() {
+      $(this.el).fadeIn()
+    },
 
-  function download() {
-    $('.loader').fadeOut()
+    out: function() {
+      $(this.el).fadeOut('slow')
+    }
   }
 
   $(window).on('load', function() {
-    download()
+    $loader.out()
   })
 }
