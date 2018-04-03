@@ -3,7 +3,7 @@ GO TO TOP
 =============================================== */
 
 export default function $goTop() {
-  jQuery(document).ready(function($) {
+  $(function() {
     $(window).scroll(function() {
       if ($(this).scrollTop() > 50) {
         $('.back-to-top').fadeIn('slow')

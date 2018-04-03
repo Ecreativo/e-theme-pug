@@ -3,7 +3,7 @@
   =============================================== */
 
 export default function burgerIcon() {
-  jQuery(document).ready(function($) {
+  $(function() {
     if ($('.burger__container').length) {
       $('.burger__icon').on('click', function(event) {
         event.preventDefault()

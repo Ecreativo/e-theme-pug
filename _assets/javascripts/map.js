@@ -4,7 +4,7 @@
   =============================================== */
 
 export default function $initMap() {
-  jQuery(document).ready(function($) {
+  $(function() {
     if ($('#mapBox').length) {
       var $zoom = $('#mapBox').data('zoom')
 
