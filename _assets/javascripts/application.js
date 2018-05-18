@@ -8,6 +8,7 @@ import $initMap from './map'
 
 // import main style
 import '../scss/main.scss'
+import 'font-awesome/scss/font-awesome.scss'
 
 (function($, window, document, undefined) {
   'use strict'
