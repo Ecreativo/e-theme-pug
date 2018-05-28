@@ -15,14 +15,14 @@ html(lang="en")
       // end:site-content
       include layout/footer.pug
     // end:site
-    each css in htmlWebpackPlugin.files.css
-      link(href=css, rel='stylesheet', async="async")
-    // build:js
-    each js in htmlWebpackPlugin.files.js
-      script(type='text/javascript', src=js)
+    //- each css in htmlWebpackPlugin.files.css
+    //-   link(href=css, rel='stylesheet', async="async")
+    //- // build:js
+    //- each js in htmlWebpackPlugin.files.js
+    //-   script(type='text/javascript', src=js)
     // endbuild
-    script.
-      console.log(!{JSON.stringify(htmlWebpackPlugin)})
+    //- script.
+    //-   console.log(!{JSON.stringify(htmlWebpackPlugin)})
     // Google Analytics: change UA-XXXXX-X to be your site's ID
     script.
       (function(i, s, o, g, r, a, m) {
