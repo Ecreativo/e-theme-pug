@@ -10,10 +10,13 @@ import $initMap from './map'
 import '../scss/main.scss'
 
 (function($, window, document, undefined) {
-  'use strict'
-  $slider()
-  $goTop()
-  $loader()
-  $burgerIcon()
-  $initMap()
+  $(function () {
+    'use strict'
+    // DOM ready, take it away
+    $slider()
+    $goTop()
+    $loader()
+    $burgerIcon()
+    $initMap()
+  });
 })(jQuery, window, document)
