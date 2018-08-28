@@ -2,53 +2,33 @@ extends ../layout.pug
   
 block content
   .container
-    .slider.full-sreen.my-5.d-none
-      .slide(style="background-image: url("+require('../../assets/images/banner/erik-mclean-1150616-unsplash.jpg')+");")
-        h4
-          | Photo by 
-          a(href='https://unsplash.com/photos/9mpFDfOmaYU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText') Erik Mclean
-          |  on 
-          a(href='/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText') Unsplash
-            i.fa.fa-camera.pl-3
-      .slide(style="background-image: url("+require('../../assets/images/banner/mohammad-sadegh-zarjooyan-1151308-unsplash.jpg')+");")
-        h4
-          | Photo by 
-          a(href='https://unsplash.com/photos/RwbhmdRp-yQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText') Mohammad Sadegh Zarjooyan
-          |  on 
-          a(href='/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText') Unsplash
-            i.fa.fa-camera.pl-3
-      .slide(style="background-image: url("+require('../../assets/images/banner/sergio-souza-1147992-unsplash.jpg')+");")
-        h4
-          | Photo by 
-          a(href='https://unsplash.com/photos/3NlrE5l3gPo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText') sergio souza
-          |  on 
-          a(href='/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText') Unsplash
-            i.fa.fa-camera.pl-3
-      .slide(data-flickity-bg-lazyload="http://via.placeholder.com/620x560")
-    h1.my-5 E-theme grid examples
-    p Basic grid layouts to get you familiar with building within the E-theme grid system.
-    .row.mx-0.my-5
-      .col-6 .col-6
-      .col-6 .col-6
-      .col-4 .col-4
-      .col-4 .col-4
-      .col-4 .col-4
-    // Button trigger modal
-    button.btn.btn-primary.my-5(type='button', data-toggle='modal', data-target='#exampleModal')
-      | Launch demo modal
-    // Modal
-    #exampleModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
-      .modal-dialog(role='document')
-        .modal-content
-          .modal-header
-            h5#exampleModalLabel.modal-title Modal title
-            button.close(type='button', data-dismiss='modal', aria-label='Close')
-              span(aria-hidden='true') ×
-          .modal-body
-            | ...
-          .modal-footer
-            button.btn.btn-secondary(type='button', data-dismiss='modal') Close
-            button.btn.btn-primary(type='button') Save changes
-    button.btn.btn-secondary(type='button', data-toggle='tooltip', data-placement='right', title='Tooltip on right')
-      | Tooltip on right
-    button.btn.btn-lg.btn-danger(type='button', data-toggle='popover', title='Popover title', data-content="And here's some amazing content. It's very engaging. Right?") Click to toggle popover  
+    .entry-text.mb-5
+      h1 Propiedades en venta.
+      p Casa y apartamento situados en Bogotá.
+      p Llamanos al +57 302 424 72 15 para más información.
+    .property-wraper
+      ul.properties.row
+        li.col-12.col-sm-6.property__li
+          .property.is-property--overlayed
+            span.property__ribon
+              | Casa 
+              br
+              |  en venta
+            figure.property__thumb
+              img(src='static/images/house/house-6.jpg', alt='')
+              .property--overlay
+                span.property__intro
+                  | La casa, tiene 36 m2 de base, 4 habitaciones 3 king y una normal, dos baños, salon comedor, cocina y patio y tiene 105 m2 construidos...
+                span.property__params 105 m2 construidos
+                span.property__params 36 m2 de base
+            .property__info
+              .property__t
+                p Villa Cristina, Bogotá, Colombia.
+              .property__offer
+                .property__price
+                  .property__label
+                    | Precio Negociable
+                  .property__value
+                    | $240Millones
+                a.property__btn.btn.btn-primary(data-toggle='modal', data-target='#houseModal') Ver detalles
+  

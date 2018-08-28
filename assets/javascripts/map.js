@@ -4,37 +4,27 @@
   =============================================== */
 
 export default function $initMap() {
-  $(function() {
-    if ($('#mapBox').length) {
-      var $zoom = $('#mapBox').data('zoom')
+  $(window).on('load', function() {
+    if ($('#location-tab').length) {
+      var casa = {
+        lat: 4.720271,
+        lng: -74.102174
+      };
 
-      var map
-      var bounds = new google.maps.LatLngBounds()
-      map = new google.maps.Map(document.getElementById('mapBox'), {
-        zoom: $zoom
-      })
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 16,
+        center: casa,
+      });
 
-      // Multiple Markers
-      var markers = [
-        ['Baitul Futuh, London', 51.396983, -0.199299],
-        ['Mezquita Fazl, London', 51.451182, -0.207308]
-      ]
+      var marker = new google.maps.Marker({
+        position: casa,
+        map: map
+      });
 
-      // Loop through our array of markers & place each one on the map
-      var i = 0
-
-      for (i = 0; i < markers.length; i++) {
-        var position = new google.maps.LatLng(markers[i][1], markers[i][2])
-        bounds.extend(position)
-        var marker = new google.maps.Marker({
-          position: position,
-          map: map,
-          title: markers[i][0]
-        })
-
-        // Automatically center the map fitting all markers on the screen
-        map.fitBounds(bounds)
-      }
+      $("a[href='#location']").on('shown.bs.tab', function() {
+        google.maps.event.trigger(map, "resize");
+        map.setCenter(new google.maps.LatLng(4.720271, -74.102174));
+      });
     }
   })
 }

@@ -1,6 +1,5 @@
 import $loader from './loader'
-import $goTop from './go-top'
-import $burgerIcon from './burguer-icon'
+// import $goTop from './go-top'
 import $slider from './slider'
 import $initMap from './map'
 // import Isotope from './isotope';
@@ -14,9 +13,8 @@ import '../scss/main.scss'
     'use strict'
     // DOM ready, take it away
     $slider()
-    $goTop()
+    // $goTop()
     $loader()
-    $burgerIcon()
     $initMap()
-  });
+  })
 })(jQuery, window, document)

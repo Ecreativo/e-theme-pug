@@ -1,27 +1,19 @@
 doctype html
 html.e-moder-no-js(lang="en")
   include layout/head.pug
-  body.site
+  body.site.home
     #loader.loader(role='alert')
       .loader__backdrop
       .loader__content
         img.loader__img(src=require('../../assets/images/ajax-loader.gif'))
         #loadingContent.loader__text Cargando...
     #page.site.site-wrapper
-      include layout/header.pug
+      //include layout/header.pug
       #content.site-content
         main#main.site-main
           block content
       // end:site-content
       include layout/footer.pug
     // end:site
-    //- each css in htmlWebpackPlugin.files.css
-    //-   link(href=css, rel='stylesheet', async="async")
-    //- // build:js
-    //- each js in htmlWebpackPlugin.files.js
-    //-   script(type='text/javascript', src=js)
-    // endbuild
-    //- script.
-    //-   console.log(!{JSON.stringify(htmlWebpackPlugin)})
-    //script(async='', defer='', src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCc_7wG3s0VhQ8faq0U8jDbIZ8fDgFl3iA')
+    script(async='', defer='', src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDKyV4--D004wh8RcEiqTk6q_JMQ1IgclE')
     
