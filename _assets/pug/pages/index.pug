@@ -2,34 +2,6 @@ extends ../layout.pug
   
 block content
   .container
-    .slider.full-sreen.my-5.d-none
-      .slide(data-flickity-bg-lazyload="http://via.placeholder.com/620x360")
-      .slide(data-flickity-bg-lazyload="http://via.placeholder.com/620x460")
-      .slide(data-flickity-bg-lazyload="http://via.placeholder.com/620x560")
-    h1.my-5 E-theme grid examples
-    p Basic grid layouts to get you familiar with building within the E-theme grid system.
-    .row.mx-0.my-5
-      .col-6 .col-6
-      .col-6 .col-6
-      .col-4 .col-4
-      .col-4 .col-4
-      .col-4 .col-4
-    // Button trigger modal
-    button.btn.btn-primary.my-5(type='button', data-toggle='modal', data-target='#exampleModal')
-      | Launch demo modal
-    // Modal
-    #exampleModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
-      .modal-dialog(role='document')
-        .modal-content
-          .modal-header
-            h5#exampleModalLabel.modal-title Modal title
-            button.close(type='button', data-dismiss='modal', aria-label='Close')
-              span(aria-hidden='true') ×
-          .modal-body
-            | ...
-          .modal-footer
-            button.btn.btn-secondary(type='button', data-dismiss='modal') Close
-            button.btn.btn-primary(type='button') Save changes
-    button.btn.btn-secondary(type='button', data-toggle='tooltip', data-placement='right', title='Tooltip on right')
-      | Tooltip on right
-    button.btn.btn-lg.btn-danger(type='button', data-toggle='popover', title='Popover title', data-content="And here's some amazing content. It's very engaging. Right?") Click to toggle popover  
+    .row
+      .col-12.mt-5
+        #appFlickr
