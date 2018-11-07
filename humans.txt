@@ -1,21 +1,18 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
 # TEAM
-
-	Web designer & UI developer: Oscar Camilo Ruiz
+	Software developer: Oscar Camilo Ruiz
 	Contact: hola [at] camiloruiz.co.uk
 	Twitter: @CamiloRojjas
 	Phone: +44 0 772 248 4369 
 	G+:https://plus.google.com/+CamiloRuiz/
 	Location: --< city >--, --< country >--.
 	From: Bogota, Colombia.
-	
 
 # THANKS
  --< name >--
 
 # SITE 
-	
 	Site Name: E-theme
 	Site URL: http://etheme.camiloruiz.co.uk/
 	Twitter: @CamiloRojjas
