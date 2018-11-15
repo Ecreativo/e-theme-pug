@@ -3,8 +3,24 @@ extends ../layout.pug
 block content
   .container
     .slider.full-sreen.my-5.d-none
-      .slide(data-flickity-bg-lazyload="http://via.placeholder.com/620x360")
-      .slide(data-flickity-bg-lazyload="http://via.placeholder.com/620x460")
+      .slide(style="background-image: url("+require('../../assets/images/banner/erik-mclean-1150616-unsplash.jpg')+");")
+        h4
+          | Photo by 
+          a(href='https://unsplash.com/photos/9mpFDfOmaYU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText') Erik Mclean
+          |  on 
+          a(href='/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText') Unsplash
+      .slide(style="background-image: url("+require('../../assets/images/banner/mohammad-sadegh-zarjooyan-1151308-unsplash.jpg')+");")
+        h4
+          | Photo by 
+          a(href='https://unsplash.com/photos/RwbhmdRp-yQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText') Mohammad Sadegh Zarjooyan
+          |  on 
+          a(href='/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText') Unsplash
+      .slide(style="background-image: url("+require('../../assets/images/banner/sergio-souza-1147992-unsplash.jpg')+");")
+        h4
+          | Photo by 
+          a(href='https://unsplash.com/photos/3NlrE5l3gPo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText') sergio souza
+          |  on 
+          a(href='/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText') Unsplash
       .slide(data-flickity-bg-lazyload="http://via.placeholder.com/620x560")
     h1.my-5 E-theme grid examples
     p Basic grid layouts to get you familiar with building within the E-theme grid system.
