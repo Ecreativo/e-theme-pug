@@ -7,7 +7,7 @@ export default function $slider() {
   if ($('.slider').length) {
     $(window).on('load', function() {
       // Main slider options
-      let options = {
+      const options = {
         cellSelector: '.slide',
         accessibility: false,
         cellAlign: 'center',
@@ -37,13 +37,13 @@ export default function $slider() {
         if (matchMedia('screen and (min-width: 1480px)').matches) {}
         /* eslint-enable */
 
-      let sliderElem = document.querySelector('.slider')
+      const sliderElem = document.querySelector('.slider')
       // show
       sliderElem.classList.remove('d-none')
       // trigger redraw for transition
       sliderElem.offsetHeight // eslint-disable-line
 
-      let slider = new Flickity(sliderElem, options)
+      const slider = new Flickity(sliderElem, options)
       return slider
     })
   }

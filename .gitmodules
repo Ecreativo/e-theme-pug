@@ -1,4 +1,4 @@
 [submodule "assets/scss"]
-	path = assets/scss
-	url = https://github.com/Ecreativo/scss-framework
+	path = scss
+	url = git@github.com:Ecreativo/scss-framework.git
 	branch = master
